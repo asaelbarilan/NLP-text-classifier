@@ -9,6 +9,8 @@ from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 
 #inspired by this :https://github.com/msahamed/yelp_comments_classification_nlp/blob/master/word_embeddings.ipynb
+#I will focus on the Home and Kitchen segment which contains ~550k 
+# reviews and can be downloaded here: http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Home_and_Kitchen_5.json.gz
 
 #load JSON file into pandas DataFrame
 df = pd.read_json('C:/Users/User/PycharmProjects/yandex/NLP class/Y-Data-NLP/Assignment 5/Home_and_Kitchen_5.json', orient='records', lines = True)
